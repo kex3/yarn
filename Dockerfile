@@ -1,5 +1,7 @@
 FROM node:slim
 
-RUN npm set progress=false
-RUN npm install -g yarn
-RUN npm cache clean
+# node:slim ships with yarn nowadays apparently
+
+#RUN npm set progress=false
+#RUN npm install -g yarn
+#RUN npm cache clean
